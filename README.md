@@ -1,13 +1,12 @@
-![GaganpreetKaurKalsi (1600 × 840 px) (3)](https://user-images.githubusercontent.com/54144759/173081855-4057d6b4-2e57-475b-961e-5cdb91604bda.png)
+(https://user-images.githubusercontent.com/54144759/173081855-4057d6b4-2e57-475b-961e-5cdb91604bda.png)
 
 <br>
 
-# Sentiment Analysis App 😊😐😔😡
-
+# Sentiment Analysis App 
 <br>
 
 ## About
-**A sentiment analysis application built using Streamlit( An open source framework to build web applications in python )**
+**A sentiment analysis application built using Streamlit**
 
 Sentiment Analysis is one of the most famous applications of Natural Language Processing. Wherever data is present, we can apply it. It applies to all types of data, from text to audio to video to image. Data in any form can be processed to get sentiments out of it. The objective of the project is to create a web application which will harbor all sorts of applications in the field of sentiment analysis from applying it on text to analyzing images.
 
@@ -15,8 +14,6 @@ Sentiment Analysis is one of the most famous applications of Natural Language Pr
 
 ## Live Link
 **Hosted on streamlit**
-
-### 🔗 https://share.streamlit.io/gaganpreetkaurkalsi/sentimentanalysis-streamlit/main/app.py
 <br>
 
 ## Project Specifications
@@ -33,8 +30,6 @@ Sentiment Analysis is one of the most famous applications of Natural Language Pr
 
 **The project currently contains 3 applications :-**
 1. **Text** - Applying sentiment analysis on text given by the user.
-2. **IMDb movie reviews** - We get review data based on movie entered by user from the IMDb API and process the same to obtain emotions of people regarding the movie.
-3. **Image** - Here we analyze sentiments out of image uploaded by the user. We detect faces and then analyze sentiments for each.  We also calculate the sentiment of image as a whole.
 
 <br>
 
@@ -43,47 +38,6 @@ Sentiment Analysis is one of the most famous applications of Natural Language Pr
 **Application 1 - User Input**          
 
 https://user-images.githubusercontent.com/54144759/173093720-5b753229-3ea8-428d-a4cb-1384c738382e.mp4
-
-<br>
-
-**Application 2 - IMDb reviews**   
-
-https://user-images.githubusercontent.com/54144759/173201517-909e9bc8-19cc-4667-8a8f-bd19fba75a0d.mp4
-
-<br>
-
-**Application 3 - Image analysis** 
-
-https://user-images.githubusercontent.com/54144759/173202138-a7b0648a-ba13-471d-88d2-c91432958aab.mp4
-
-
-<br>
-
-# Important information
-
-## **IMDb API**
-
-API documentation link - https://imdb-api.com/api/#Reviews-header
-
-<br>
-
-To work with the API, you need to first **create an API key**.
-To create an API key, **register** on the site mentioned above and a unique key will be generated for you. We will use this key to make successful requests.
-
-
-***Note : API call limit per day is 100***
-
-<br>
-
-### **API specifications**
-To get reviews, we will need to make 2 API calls. 
-1. Get movies based on user input. Each movie received will have a unique id.
-2. Get reviews for a movie by passing the unique id associated with it received from the above API call.
-
-
-**Movie API** - https://imdb-api.com/en/API/SearchMovie/{apiKey}/{movieName}    
-    
-**Review API** - https://imdb-api.com/en/API/Reviews/{apiKey}/{id}
 
 <br>
 
