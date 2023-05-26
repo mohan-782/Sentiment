@@ -14,6 +14,7 @@ Sentiment Analysis is one of the most famous applications of Natural Language Pr
 
 ## Live Link
 **Hosted on streamlit**
+https://mohan-782-sentiment-app-u9omn6.streamlit.app/
 <br>
 
 ## Project Specifications
